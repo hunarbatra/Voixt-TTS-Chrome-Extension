@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Voixt - Text Narrator",
+	"description": "Tired of reading? No worries, we've got the next gen solution for you - Voixt. Select the text and let Voixt narrate it out for you!",
+	"version": "1.0",
+	"background": {
+		"scripts": ["narrate.js", "background.js"]
+	},
+	"icons": { 
+		"16": "img/voixt16.png",
+		"48": "img/voixt48.png",
+		"128": "img/voixt-main.png" 
+	},
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"tts",
+		"activeTab"
+	],
+	"browser_action": {
+		"default_icon": "img/voixt-main.png",
+		"default_popup": "popup.html"
+	}
+}

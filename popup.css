@@ -1,0 +1,51 @@
+body {
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    background: url(../img/border.png) center;
+    background-size: cover;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+        box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+} 
+button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+          box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+  }
+  
+.control-btn {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+h2 p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#voixt-logo {
+    height: 20vh;
+    width: 20vh;
+    margin-top: 20px;
+} 
+
+.footer-hb {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#narrate {
+    margin-right: 10px;
+}
+
+#stop {
+    margin-right: 10px;
+}
